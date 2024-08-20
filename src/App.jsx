@@ -23,14 +23,13 @@ function App() {
       <div className="box">
         <div className="to">
           <input type="text" placeholder='Input New Todo' className='tod' value={input} onChange={(e) => {setInput(e.target.value)}}/>
-          
-          <button className='btn' onClick={addTodo}>Add Todo</button>
+          <button className='btn' onClick={addTodo} >Add Todo</button>
         </div>
         <h3 className='na'>Available Todo Items</h3>
         <ul>
         {todo.map((todo, index) => (
           <li key={index} className='todo'>
-            {todo} <button onClick={() => removeTodo(index)} className='rembtn'>Remove</button>
+            {todo} <button onClick={() => removeTodo(index)} className='rembtn'>Delete</button>
           </li>
         ))}
       </ul>
