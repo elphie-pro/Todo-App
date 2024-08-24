@@ -110,21 +110,21 @@ li:last-child {
   margin-top: -2%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .box{
     position: absolute;
     background-color: #abb5ac;
-    width: 55vw;
+    width: 70vw;
     height: 50vh;
-    margin-left: 21.5%;
-    margin-top: 33%;
+    margin-left: 12.5%;
+    margin-top: 43%;
     border-radius: 20px;
   }
 
   .to{
     position: absolute;
     border-bottom: 2px solid #b4bdcc;
-    width: 55vw;
+    width: 70vw;
     height: 6vh;
     background-color: #abb5ac;
     border-top-left-radius: 20px;
@@ -135,14 +135,14 @@ li:last-child {
       position: absolute;
       margin-top: 18%;
       margin-left: 2%;
-      width: 55vw;
+      width: 70vw;
       border-bottom: #b4bdcc 2px solid;
       color: black;
       font-weight: 800;
     }
 
     .tod{
-      width: 42.5vw;
+      width: 52.5vw;
       height: 5.5vh;
       background-color: transparent;
       border-top-left-radius: 20px;
@@ -161,7 +161,7 @@ li:last-child {
 
     .btn {
       position: absolute;
-      width: 12vw;
+      width: 16.8vw;
       height: 6vh;
       border-top-right-radius: 20px;
       background-color: #abb5ac;
@@ -186,7 +186,7 @@ li:last-child {
       color: black;
       font-weight: 800;
       margin-top: 146%;
-      margin-left: 66%;
+      margin-left: 56%;
     }
 
     ul {
@@ -212,7 +212,7 @@ li:last-child {
     
     .rembtn{
       position: absolute;
-      width: 10vw;
+      width: 12.5vw;
       height: 4vh;
       background-color: #abb5ac;
       color: black;
